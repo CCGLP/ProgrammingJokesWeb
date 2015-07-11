@@ -1,0 +1,18 @@
+html {
+  font-size: 16px;
+}
+body {
+  background-color: #000;
+}
+h1 {
+  color: #fff;
+  font-size: 4em;
+  text-align: center;
+}
+.Images {
+  width: 100vw;
+}
+.Images img {
+  cursor: url("images/cursor.png") 25 25, auto;
+  width: 49vw;
+}
