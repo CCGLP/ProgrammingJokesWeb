@@ -3,16 +3,29 @@ html {
 }
 body {
   background-color: #000;
+  width: 95vw;
 }
 h1 {
   color: #fff;
-  font-size: 2em;
+  font-size: 2.5em;
   text-align: center;
 }
-.Images {
-  width: 100vw;
-}
-.Images img {
+.Imagen {
   cursor: url("images/cursor.png") 25 25, auto;
-  width: 49vw;
+  display: inline-block;
+  width: 32%;
+  padding: 0 0.39%;
+}
+.Imagen img {
+  width: 100%;
+}
+@media (max-width: 1200) {
+  .Imagen {
+    width: 49%;
+  }
+}
+@media (max-width: 600px) {
+  .Imagen {
+    width: 100%;
+  }
 }

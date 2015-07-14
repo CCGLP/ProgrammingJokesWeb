@@ -1,0 +1,8 @@
+{
+  "scripts":{
+    "jade": "jade --watch --pretty index.jade",
+    "stylus": "stylus --watch app.styl",
+    "server": "http-server"
+
+  }
+}
