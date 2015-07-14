@@ -19,9 +19,9 @@ h1 {
 .Imagen img {
   width: 100%;
 }
-@media (max-width: 1200) {
+@media (max-width: 1200px) {
   .Imagen {
-    width: 49%;
+    width: 48%;
   }
 }
 @media (max-width: 600px) {
